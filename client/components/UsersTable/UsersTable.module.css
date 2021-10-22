@@ -1,0 +1,8 @@
+.UsersTable table {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.UsersTable__btn {
+  margin-right: 15px;
+}
