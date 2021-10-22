@@ -36,7 +36,7 @@ const UsersTable = ({ users }) => {
         onHide={() => setModalShow(false)}
       >
         {users.length > 0 && (
-          <Table striped bordered hover>
+          <Table striped bordered hover responsive>
             <thead>
               <tr>
                 <th>ID</th>
