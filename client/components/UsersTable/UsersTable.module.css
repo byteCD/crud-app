@@ -6,3 +6,10 @@
 .UsersTable__btn {
   margin-right: 15px;
 }
+
+@media (max-width: 992px) {
+  .UsersTable__btn {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}
