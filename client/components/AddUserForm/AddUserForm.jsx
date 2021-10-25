@@ -56,6 +56,7 @@ const AddUserForm = () => {
           <Form.Label>Роль</Form.Label>
           <Form.Select
             className="mb-3"
+            value={role}
             onChange={(e) => setRole(e.target.value)}
           >
             <option>Пользователь</option>
